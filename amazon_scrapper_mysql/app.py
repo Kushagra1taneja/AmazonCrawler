@@ -114,7 +114,7 @@ def search():
 
 
     cnx = mysql.connector.connect(user='root',
-                                  password='Kushagra01#',
+                                  password='Your-Password',
                                   host='localhost',
                                   database='product')
     cursor = cnx.cursor()
