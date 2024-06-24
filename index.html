@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+        }
+        form {
+            margin-top: 50px;
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            margin-top: 10px;
+            border-radius: 10px;
+
+            background-color: #333;
+            color: #fff;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #04478e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Amazon Crawler</h1>
+    <form action="/search" method="post">
+        <label for="product">Enter Product Name:</label><br>
+        <input type="text" id="product" name="product" required><br><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
